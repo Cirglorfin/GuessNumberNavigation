@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="juego"
+            type="com.example.guessnumbernavigation.data.Juego" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".iu.PlayActivity"
+        >
+
+
+        <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/tvIntroMarginTop"
+            android:gravity="center_horizontal"
+            android:text="@string/tvIntroTexto"
+            android:textSize="@dimen/tvIntroTextSize"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etNum"
+            android:layout_width="@dimen/etNumWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/etNumMarginRigth"
+            android:autofillHints=""
+            android:inputType="number"
+            android:gravity="center"
+            android:minHeight="@dimen/etNumMinHeight"
+
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvIntro"
+            app:layout_constraintLeft_toRightOf="@+id/tvIntro" >
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnProbar"
+            android:layout_width="@dimen/btnProbarWidth"
+            android:layout_height="@dimen/btnProbarHeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/btnProbarMarginStart"
+            android:layout_marginTop="@dimen/btnProbarMarginTop"
+            android:layout_marginEnd="@dimen/btnProbarMarginEnd"
+            android:onClick="Probar"
+            android:text="@string/btnProbarText"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
+
+        <TextView
+            android:id="@+id/tvAyuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/tvAyudaMarginStart"
+            android:layout_marginTop="@dimen/tvAyudaMarginTop"
+            android:layout_marginEnd="@dimen/tvAyudaMarginEnd"
+
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="@dimen/tvAyudaTextSize"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnProbar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.guessnumbernavigation.iu.ConfigFragment"
+        android:label="fragment_config"
+        tools:layout="@layout/fragment_config" >
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.guessnumbernavigation.iu.PlayFragment"
+        android:label="fragment_play"
+        tools:layout="@layout/fragment_play" >
+        <action
+            android:id="@+id/action_playFragment_to_endPlayFragment"
+            app:destination="@id/endPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endPlayFragment"
+        android:name="com.example.guessnumbernavigation.iu.EndPlayFragment"
+        android:label="fragment_end_play"
+        tools:layout="@layout/fragment_end_play" >
+        <action
+            android:id="@+id/action_endPlayFragment_to_configFragment"
+            app:destination="@id/configFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.guessnumbernavigation.iu.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

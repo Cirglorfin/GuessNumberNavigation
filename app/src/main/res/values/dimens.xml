@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tvIntroMarginTop">160dp</dimen>
+    <dimen name="etNumWidth">100dp</dimen>
+    <dimen name="etNumMarginRigth">8dp</dimen>
+    <dimen name="etNumMinHeight">48dp</dimen>
+    <dimen name="btnProbarWidth">130dp</dimen>
+    <dimen name="btnProbarHeight">80dp</dimen>
+    <dimen name="btnProbarMarginStart">8dp</dimen>
+    <dimen name="btnProbarMarginTop">136dp</dimen>
+    <dimen name="btnProbarMarginEnd">8dp</dimen>
+    <dimen name="tvAyudaMarginStart">8dp</dimen>
+    <dimen name="tvAyudaMarginTop">20dp</dimen>
+    <dimen name="tvAyudaMarginEnd">8dp</dimen>
+    <dimen name="tvAyudaTextSize">20sp</dimen>
+    <dimen name="tvIntroTextSize">20sp</dimen>
+    <dimen name="etIntentosMarginStart">8dp</dimen>
+    <dimen name="etPlayerMarginTop">50dp</dimen>
+    <dimen name="etIntentosMarginEnd">8dp</dimen>
+    <dimen name="etPlayerMinHeight">50dp</dimen>
+    <dimen name="btJugarWitdth">184dp</dimen>
+    <dimen name="btJugarHeight">71dp</dimen>
+    <dimen name="btJugarMarginTop">50dp</dimen>
+    <dimen name="tvResMargin">20dp</dimen>
+</resources>

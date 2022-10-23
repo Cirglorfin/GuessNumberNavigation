@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="juego"
+            type="com.example.guessnumbernavigation.data.Juego" />
+    </data>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context=".iu.ConfigFragment">
+
+
+
+
+        <EditText
+            android:id="@+id/etPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/etIntentosMarginStart"
+            android:layout_marginTop="@dimen/etPlayerMarginTop"
+            android:layout_marginEnd="@dimen/etIntentosMarginEnd"
+            android:autofillHints=""
+            android:hint="@string/etPlayerHint"
+            android:inputType="text"
+            android:minHeight="@dimen/etPlayerMinHeight"
+            android:text="@={juego.nombre}"
+            android:textColorHint="@color/etUserColorHint" />
+
+        <EditText
+            android:id="@+id/etIntentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/etPlayerMarginTop"
+            android:minHeight="@dimen/etPlayerMinHeight"
+            android:inputType="number"
+            android:autofillHints=""
+            android:text="@={juego.intentos}"
+            android:hint="@string/etIntentosHint"
+            android:textColorHint="@color/etUserColorHint"
+            android:layout_marginStart="@dimen/etIntentosMarginStart"
+            android:layout_marginEnd="@dimen/etIntentosMarginEnd"
+            />
+
+
+        <Button
+            android:id="@+id/btJugar"
+            android:layout_width="@dimen/btJugarWitdth"
+            android:layout_height="@dimen/btJugarHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/btJugarMarginTop"
+            android:text="@string/btJugarText"
+
+            />
+
+
+    </LinearLayout>
+</layout>
