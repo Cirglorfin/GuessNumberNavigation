@@ -28,18 +28,5 @@
            />
 
 
-
-
-        <Button
-            android:id="@+id/btnVolver"
-            android:layout_width="@dimen/btJugarWitdth"
-            android:layout_height="@dimen/btJugarHeight"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/btJugarMarginTop"
-            android:text="@string/btnVolverText"
-
-            />
-
-
     </LinearLayout>
 </layout>

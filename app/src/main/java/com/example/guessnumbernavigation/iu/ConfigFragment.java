@@ -71,6 +71,7 @@ public class ConfigFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        Log.d(TAG,"ConfigFragment ->OnDestroy()");
         binding=null;
     }
 

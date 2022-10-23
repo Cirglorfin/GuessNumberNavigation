@@ -70,8 +70,7 @@ public class EndPlayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding=FragmentEndPlayBinding.inflate(inflater);
-        binding.btnVolver.setOnClickListener(view -> NavHostFragment.findNavController(this).navigate(R.id.action_endPlayFragment_to_configFragment));
-        return binding.getRoot();
+       return binding.getRoot();
    }
 
     @Override
