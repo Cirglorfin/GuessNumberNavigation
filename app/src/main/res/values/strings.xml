@@ -22,4 +22,7 @@
     <string name="Play2ENIEM">El número introducido es mayor</string>
     <string name="PlayIN">Introduce un número</string>
     <string name="btnVolverText">Nuevo juego</string>
+    <string name="Config" translatable="false">Guess Number</string>
+    <string name="Play" translatable="false">Guess Number</string>
+    <string name="End" translatable="false">Guess Number</string>
 </resources>

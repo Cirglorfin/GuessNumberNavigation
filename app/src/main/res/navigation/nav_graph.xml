@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/configFragment"
         android:name="com.example.guessnumbernavigation.iu.ConfigFragment"
-        android:label="fragment_config"
+        android:label="@string/Config"
         tools:layout="@layout/fragment_config" >
         <action
             android:id="@+id/action_configFragment_to_playFragment"
@@ -16,7 +16,7 @@
     <fragment
         android:id="@+id/playFragment"
         android:name="com.example.guessnumbernavigation.iu.PlayFragment"
-        android:label="fragment_play"
+        android:label="@string/Play"
         tools:layout="@layout/fragment_play" >
         <action
             android:id="@+id/action_playFragment_to_endPlayFragment"
@@ -27,7 +27,7 @@
     <fragment
         android:id="@+id/endPlayFragment"
         android:name="com.example.guessnumbernavigation.iu.EndPlayFragment"
-        android:label="fragment_end_play"
+        android:label="@string/End"
         tools:layout="@layout/fragment_end_play" />
     <activity
         android:id="@+id/mainActivity"
