@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_configFragment_to_playFragment"
             app:destination="@id/playFragment" />
+        <action
+            android:id="@+id/action_configFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
     </fragment>
     <fragment
         android:id="@+id/playFragment"
@@ -34,4 +37,9 @@
         android:name="com.example.guessnumbernavigation.iu.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.guessnumbernavigation.iu.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
 </navigation>

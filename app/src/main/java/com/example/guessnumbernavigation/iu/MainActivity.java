@@ -1,5 +1,8 @@
 package com.example.guessnumbernavigation.iu;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.guessnumbernavigation.R;
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent intent = new Intent(this, AboutUsActivity.class);
+            startActivity(intent);
+           // Fragment aboutUsFragment=new AboutUsFragment();
+           // getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_main,aboutUsFragment).commit();
             return true;
         }
 

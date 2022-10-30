@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources> <string name="app_name">GuessNumber</string>
+<resources>
+    <string name="app_name">GuessNumber</string>
     <string name="etPlayerHint">Introduce tu nombre</string>
     <string name="btJugarText">¡A jugar!</string>
     <string name="etIntentosHint">Introduce el número de intentos</string>
@@ -25,4 +26,7 @@
     <string name="Config" translatable="false">Guess Number</string>
     <string name="Play" translatable="false">Guess Number</string>
     <string name="End" translatable="false">Guess Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PlayStoreLink">8002078663318221363</string>
 </resources>

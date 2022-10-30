@@ -52,13 +52,14 @@
             android:layout_height="@dimen/btnProbarHeight"
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="@dimen/btnProbarMarginStart"
-            android:layout_marginTop="@dimen/btnProbarMarginTop"
+            android:layout_marginTop="52dp"
             android:layout_marginEnd="@dimen/btnProbarMarginEnd"
             android:onClick="Probar"
             android:text="@string/btnProbarText"
             app:layout_constraintEnd_toEndOf="parent"
 
 
+            app:layout_constraintHorizontal_bias="0.499"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
 
